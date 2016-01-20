@@ -1,10 +1,10 @@
 {
   "name": "node-sentry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sentry client for nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "keywords": [
     "sentry"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/song940/node-sentry/issues"
   },
-  "homepage": "https://github.com/song940/node-sentry#readme"
+  "homepage": "https://github.com/song940/node-sentry#readme",
+  "dependencies": {
+    "superagent": "*"
+  }
 }
