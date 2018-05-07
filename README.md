@@ -9,14 +9,15 @@ $ npm install node-sentry --save
 
 ### Example
 ```js
-const sentry = require('node-sentry');
+const Sentry = require('node-sentry');
 
-var client = sentry({
-  projectId   : '1',
-  endpoint    : 'sentry.lsong.org',
-  clientKey   : '272cb95b5b0d4537825ebe60f6e1c43x',
-  clientSecret: 'ed2797ad20cf4edbb6bc7de1f20892dx'
+const client = new Sentry({
+  projectId: '2',
+  publicKey: '23c08cebdc704d7eba047b32c650e27b',
+  secretKey: 'ef9caf620f684ba68e0892f50c118685',
+  endpoint : 'https://sentry.lsong.org'
 });
+
 
 client.captureMessage('test message');
 
