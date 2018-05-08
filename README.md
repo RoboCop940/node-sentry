@@ -1,4 +1,7 @@
-## node-sentry ![NPM version](https://img.shields.io/npm/v/node-sentry.svg?style=flat)
+## node-sentry 
+
+[![NPM version](https://img.shields.io/npm/v/node-sentry.svg?style=flat)](https://npmjs.org/node-sentry)
+[![Build Status](https://travis-ci.org/song940/node-sentry.svg?branch=master)](https://travis-ci.org/song940/node-sentry)
 
 sentry client for nodejs
 
